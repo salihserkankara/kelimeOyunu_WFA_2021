@@ -243,7 +243,7 @@ namespace kelimeoyunu
         }
         private void dortDakikaTmr_Tick(object sender, EventArgs e)
         {
-            dortDakikaTmr.Interval = 100;
+            dortDakikaTmr.Interval = 1000;
             altmisSaniye -= 1;
             saniyeLbl.Text = Convert.ToString(altmisSaniye);
             dakikaLbl.Text = Convert.ToString(dort_Dakika);
